@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include "chip8.h"
 #include <fstream>
 #include <time.h>

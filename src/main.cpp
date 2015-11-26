@@ -1,12 +1,12 @@
 // CHIP8.cpp : Defines the entry point for the console application.
 //
 
-#include "stdafx.h"
 #include "chip8.h"
 #include "main.h"
 
 #include <iostream>
 #include <SFML/Graphics.hpp>
+#include <Windows.h>
 
 
 using namespace std;
@@ -70,7 +70,7 @@ int main(int argc, char* argv[])
 	setupInput();
 
 	myChip8.initialize();
-	myChip8.loadGame("c:/games/PONG");
+	myChip8.loadGame("C:/Users/Calin/Documents/Visual Studio 2015/Projects/chip8/c8games/PONG");
 
 	while (window.isOpen())
 	{
